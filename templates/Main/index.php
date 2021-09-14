@@ -157,6 +157,12 @@
         font-size: 13px;
         opacity: 0.6;
     }
+    .container-lg{
+        padding-top: 2%;
+    }
+    .container-lg td{
+        padding-top: 2%;
+    }
 
 
 </style>
@@ -215,36 +221,46 @@
 
         <div class="container-sm">
             <h2>ABOUT US</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
-            </p></div>
-        <div class="container-md"><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
-            </p></div>
-        <div class="container-lg"><p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
-            </p></div>
+            </div>
+        <div class="container-lg">
+            <table>
+                <tr>
+                    <td>
+                        <h3><img src="/public/images/icons/travel.png" width="80px" height="80px"> Experience more</h3>
+                    </td>
+                    <td>
+                        <h3><img src="/public/images/icons/antivirus.png" width="80px" height="80px"> Better safety and
+                            performance</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3><img src="/public/images/icons/24-hours.png" width="80px" height="80px"> 24 Hours breakdown
+                            assistance</h3>
+                    </td>
+                    <td>
+                        <h3><img src="/public/images/icons/checklist.png" width="80px" height="80px"> Choose your car
+                        </h3>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3><img src="/public/images/icons/budget.png" width="80px" height="80px"> Budget travel</h3>
+                    </td>
+                    <td>
+                        <h3><img src="/public/images/icons/international-consumer.png" width="80px" height="80px">
+                            Convenience for international travellers</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3><img src="/public/images/icons/calendar.png" width="80px" height="80px"> Easy booking and
+                            payment assistance</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </section>
 
@@ -257,59 +273,37 @@
                 <div class="col">
                     <h3> CONDITIONS</h3>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like
-                        Aldus PageMaker including versions of Lorem Ipsum.
+                    <ul>
+                        <li>Age more than 21</li>
+                        <li>You must have driver license</li>
+                        <li>You must have credit card under your name</li>
+                        <li>Passport</li>
+                    </ul>
                     </p>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                         type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like
-                        Aldus PageMaker including versions of Lorem Ipsum.
+                        scrambled it to make a type specimen book.
                     </p>
                 </div>
                 <div class="col">
-                    <h3> CONDITIONS</h3>
+                    <h3> HOW TO BOOK CAR</h3>
+                    <h4>To book your car, all you need is a credit or debit card. When you pick the car up, you’ll
+                        need:</h4>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like
-                        Aldus PageMaker including versions of Lorem Ipsum.
+                    <ul>
+                        <li>Your voucher / eVoucher, to show that you’ve paid for the car.</li>
+                        <li>The main driver’s credit / debit card, with enough available funds for the car’s deposit.
+                        </li>
+                        <li>Each driver’s full, valid driving licence, which they’ve held for at least 12 months (often
+                            24).
+                        </li>
+                        <li>Your passport and any other ID the car hire company needs to see.</li>
+                    </ul>
                     </p>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like
-                        Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
             </div>
 
