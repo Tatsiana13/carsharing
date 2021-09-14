@@ -1,3 +1,3 @@
 # carsharing
  
-Website for car rental. 
+Website for rental cars. 
