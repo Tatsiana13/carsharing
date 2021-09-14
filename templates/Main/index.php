@@ -28,15 +28,27 @@
         height: 680px;
         padding-top: 6%;
         background: white;
-        color: #226b8a;
+        color: black;
+        font-size: 26px;
 
     }
+    .photobg2 h3 {
+        color: #226b8a;
+    }
+    .photobg2 li {
+        list-style: none;
+    }
 
+    .photobg2 li:before {
+        content: "✔";
+        margin: 0 16px 0 0;
+    }
     .photobg3 {
         width: 100%;
         height: 1000px;
         padding-top: 6%;
         background: #a7cade;
+
 
 
     }
@@ -158,7 +170,8 @@
         opacity: 0.6;
     }
     .container-lg{
-        padding-top: 2%;
+        padding-top: 1%;
+        padding-left: 2%;
     }
     .container-lg td{
         padding-top: 2%;
@@ -218,39 +231,35 @@
 <section id="content1">
     <div class="photobg1">
 
-
-        <div class="container-sm">
-            <h2>ABOUT US</h2>
-            </div>
         <div class="container-lg">
+            <h2>ABOUT US</h2>
             <table>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/travel.png" width="80px" height="80px"> Experience more</h3>
+                        <h3><img src="/public/images/icons/travel.png" width="80px" height="80px">  Experience more</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/antivirus.png" width="80px" height="80px"> Better safety and
+                        <h3><img src="/public/images/icons/antivirus.png" width="80px" height="80px">  Better safety and
                             performance</h3>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/24-hours.png" width="80px" height="80px"> 24 Hours breakdown
+                        <h3><img src="/public/images/icons/24-hours.png" width="80px" height="80px">  24 Hours breakdown
                             assistance</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/checklist.png" width="80px" height="80px"> Choose your car
+                        <h3><img src="/public/images/icons/checklist.png" width="80px" height="80px">  Choose your car
                         </h3>
 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/budget.png" width="80px" height="80px"> Budget travel</h3>
+                        <h3><img src="/public/images/icons/budget.png" width="80px" height="80px">  Budget travel</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/international-consumer.png" width="80px" height="80px">
-                            Convenience for international travellers</h3>
+                        <h3><img src="/public/images/icons/international-consumer.png" width="80px" height="80px">   Convenience for international travellers</h3>
                     </td>
                 </tr>
                 <tr>
@@ -279,13 +288,6 @@
                         <li>You must have credit card under your name</li>
                         <li>Passport</li>
                     </ul>
-                    </p>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and
-                        scrambled it to make a type specimen book.
                     </p>
                 </div>
                 <div class="col">
@@ -316,13 +318,8 @@
     <div class="photobg3">
         <div class="container-sm">
             <div class="table-responsive">
+                <h2>MOST POPULAR DESTINATIONS</h2>
                 <table class="table align-middle">
-                    <thead>
-                    <tr>
-                        <h2>MOST POPULAR DESTINATIONS</h2>
-                    </tr>
-                    </thead>
-                    <tbody>
                     <tr>
                     </tr>
                     <tr class="align-bottom">
@@ -351,17 +348,6 @@
                             </div>
                         </td>
                     </tr>
-                    </tbody>
-
-                    <thead>
-                    <tr>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                    </tr>
-                    <tr class="align-bottom">
-                    </tr>
                     <tr>
                         <td>
                             <div class="row g-0 bg-light position-relative">
@@ -385,14 +371,6 @@
                                 </div>
                             </div>
                         </td>
-                    </tr>
-                    </tbody>
-
-
-                    <tbody>
-                    <tr>
-                    </tr>
-                    <tr class="align-bottom">
                     </tr>
                     <tr>
                         <td>
@@ -418,7 +396,6 @@
                             </div>
                         </td>
                     </tr>
-                    </tbody>
                 </table>
             </div>
         </div>
