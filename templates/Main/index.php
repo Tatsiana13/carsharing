@@ -2,7 +2,7 @@
     .photobg {
         width: 100%;
         height: 680px;
-        padding-top: 16%;
+        padding-top: 12%;
         color: white;
         /*margin-left: 7px;*/
         /*padding-right: 70px;*/
@@ -11,16 +11,30 @@
         background: url('/public/images/city/travel.jpg') no-repeat center center;
     }
 
+    .photobg h1 {
+        font-size: 80px;
+        padding-left: 10%;
+    }
+
+    .photobg h2 {
+        font-size: 34px;
+        font: bold;
+    }
+
     .photobg1 {
         width: 100%;
         height: 680px;
         color: azure;
-        padding-top: 6%;
+        padding-top: 4%;
 
         /*margin-left: 7px;*/
         /*padding-right: 70px;*/
         /*border: 4px solid black;*/
         background: rgb(33, 59, 80);
+    }
+
+    .photobg1 img {
+        margin-right: 10px;
     }
 
     .photobg2 {
@@ -32,9 +46,11 @@
         font-size: 26px;
 
     }
+
     .photobg2 h3 {
         color: #226b8a;
     }
+
     .photobg2 li {
         list-style: none;
     }
@@ -43,14 +59,16 @@
         content: "✔";
         margin: 0 16px 0 0;
     }
+
     .photobg3 {
         width: 100%;
         height: 1000px;
         padding-top: 6%;
         background: #a7cade;
-
-
-
+    }
+    .photobg3 img {
+        width: 260px;
+        height: 180px;
     }
 
     .photobg4 {
@@ -169,11 +187,13 @@
         font-size: 13px;
         opacity: 0.6;
     }
-    .container-lg{
+
+    .container-lg {
         padding-top: 1%;
         padding-left: 2%;
     }
-    .container-lg td{
+
+    .container-lg td {
         padding-top: 2%;
     }
 
@@ -205,8 +225,8 @@
 </nav>
 
 
-<a href="#" title="Вернуться к началу" class="topbutton"><img src="/public/images/icons/arrow.png" width="40px"
-                                                              height="40px"></a>
+<a href="#" title="On top" class="topbutton"><img src="/public/images/icons/arrow.png" width="40px"
+                                                  height="40px"></a>
 
 <section id="ex1">
     <div class="photobg">
@@ -214,12 +234,10 @@
             <div class="row">
                 <div class="col">
                 </div>
-                <div class="col-6">
+                <div class="col-8">
 
                     <h1>Car Hire – Search, Compare & Save </h1>
-                    <h2>With AutoRental service you can explore in comfort!</h2>
-                    <h2>Compare 900 companies at over 60,000 locations. Price Match Guarantee</h2>
-
+                    <h2>with AutoRental service you can explore in comfort!</h2>
                 </div>
                 <div class="col">
                 </div>
@@ -236,30 +254,31 @@
             <table>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/travel.png" width="80px" height="80px">  Experience more</h3>
+                        <h3><img src="/public/images/icons/travel.png" width="80px" height="80px"> Experience more</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/antivirus.png" width="80px" height="80px">  Better safety and
+                        <h3><img src="/public/images/icons/antivirus.png" width="80px" height="80px"> Better safety and
                             performance</h3>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/24-hours.png" width="80px" height="80px">  24 Hours breakdown
+                        <h3><img src="/public/images/icons/24-hours.png" width="80px" height="80px"> 24 Hours breakdown
                             assistance</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/checklist.png" width="80px" height="80px">  Choose your car
+                        <h3><img src="/public/images/icons/checklist.png" width="80px" height="80px"> Choose your car
                         </h3>
 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3><img src="/public/images/icons/budget.png" width="80px" height="80px">  Budget travel</h3>
+                        <h3><img src="/public/images/icons/budget.png" width="80px" height="80px"> Budget travel</h3>
                     </td>
                     <td>
-                        <h3><img src="/public/images/icons/international-consumer.png" width="80px" height="80px">   Convenience for international travellers</h3>
+                        <h3><img src="/public/images/icons/international-consumer.png" width="80px" height="80px">
+                            Convenience for international travellers</h3>
                     </td>
                 </tr>
                 <tr>
@@ -281,17 +300,17 @@
             <div class="row">
                 <div class="col">
                     <h3> CONDITIONS</h3>
-                    <p>
+                    <br>
                     <ul>
                         <li>Age more than 21</li>
                         <li>You must have driver license</li>
                         <li>You must have credit card under your name</li>
                         <li>Passport</li>
                     </ul>
-                    </p>
                 </div>
                 <div class="col">
                     <h3> HOW TO BOOK CAR</h3>
+                    <br>
                     <h4>To book your car, all you need is a credit or debit card. When you pick the car up, you’ll
                         need:</h4>
                     <p>
@@ -317,8 +336,9 @@
 <section id="content3">
     <div class="photobg3">
         <div class="container-sm">
+            <h2>MOST POPULAR DESTINATIONS</h2>
             <div class="table-responsive">
-                <h2>MOST POPULAR DESTINATIONS</h2>
+
                 <table class="table align-middle">
                     <tr>
                     </tr>
@@ -328,7 +348,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/madrid.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/madrid.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">Madrid</h5>
@@ -339,7 +359,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/amster.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/amster.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">Amsterdam</h5>
@@ -352,7 +372,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/warsaw.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/warsaw.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">Warsaw</h5>
@@ -363,7 +383,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/london.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/london.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">London</h5>
@@ -376,7 +396,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/paris.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/paris.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">Paris</h5>
@@ -387,7 +407,7 @@
                         <td>
                             <div class="row g-0 bg-light position-relative">
                                 <div class="col-md-6 mb-md-0 p-md-4">
-                                    <img src="/public/images/city/sochi.jpg" width="80%" height="90%">
+                                    <img src="/public/images/city/sochi.jpg">
                                 </div>
                                 <div class="col-md-6 p-4 ps-md-0">
                                     <h5 class="mt-0">Sochi</h5>
@@ -613,7 +633,7 @@
                                 class="icon ion-social-twitter"></i></a><a href="#"><i
                                 class="icon ion-social-snapchat"></i></a><a href="#"><i
                                 class="icon ion-social-instagram"></i></a>
-                    <p class="copyright">Company Name © 2018</p>
+                    <p class="copyright">AutoRental © 2021</p>
                 </div>
             </div>
         </div>
